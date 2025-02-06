@@ -1,0 +1,9 @@
+{
+   "name": "MyDataLakeLinkedService",
+   "properties": {
+      "type": "AzureDataLakeStore",
+      "typeProperties": {
+         "url": "https://datalakeedu2.dfs.core.windows.net"
+      }
+   }
+}

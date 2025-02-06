@@ -1,0 +1,13 @@
+{
+    "name": "DataPipelineCSVtoParquet",
+    "properties": {
+       "type": "BlobTrigger",
+       "typeProperties": {
+          "folderPath": "EdStatsData.csv",
+          "blobPathBeginsWith": "abfss://rawdata@datalakeedu2.dfs.core.windows.net/",
+          "dataFactory": "adf-edu2",
+          "pipelineName": "DataPipelineCSVtoParquet"
+       }
+    }
+ }
+ 
